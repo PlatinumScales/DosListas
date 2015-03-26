@@ -1,0 +1,21 @@
+﻿Build started 20/03/2015 11:57:54.
+     1>Project "D:\BISOFT-10\Proyecto Dos Listas\Proyecto Dos Listas\Proyecto Dos Listas.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Proyecto Dos Listas.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Nodo.cpp listaDobleCircular.cpp
+         listaDobleCircular.cpp
+         Nodo.cpp
+         Generating Code...
+     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\nodo.cpp(17): error C4716: 'Nodo::getDato' : must return a value
+     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\nodo.cpp(20): error C4716: 'Nodo::getSgte' : must return a value
+     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\nodo.cpp(23): error C4716: 'Nodo::getAnte' : must return a value
+     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(14): error C4716: 'listaDobleCircular::dirNodo' : must return a value
+     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(19): error C4716: 'listaDobleCircular::getSize' : must return a value
+     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(21): error C4716: 'listaDobleCircular::vacia' : must return a value
+     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(27): error C4716: 'listaDobleCircular::agregar' : must return a value
+     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(28): error C4716: 'listaDobleCircular::eliminar' : must return a value
+     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(16): error C4716: 'listaDobleCircular::getCab' : must return a value
+     1>Done Building Project "D:\BISOFT-10\Proyecto Dos Listas\Proyecto Dos Listas\Proyecto Dos Listas.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20
