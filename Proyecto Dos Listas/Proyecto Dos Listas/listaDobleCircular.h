@@ -12,8 +12,6 @@ public:
 	~listaDobleCircular(void);
 
 
-
-
 	Nodo *getCab();
 	void setCab(Nodo *);
 
@@ -26,8 +24,7 @@ public:
 
 	bool agregar(int );
 	bool eliminar(int );
-	void mostrarLista(int );
-
-
+	void mostrarLista();
+	void removeNodo(Nodo *aux);
 };
 
