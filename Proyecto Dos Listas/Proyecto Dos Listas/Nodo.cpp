@@ -36,3 +36,8 @@ Nodo *Nodo::getAnte(){
 void Nodo::setAnte(Nodo *aux){
 	this->ante = aux;
 }
+
+Nodo * Nodo::clone()
+{
+	return new Nodo(getDato());
+}

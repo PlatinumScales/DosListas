@@ -26,5 +26,6 @@ public:
 	bool eliminar(int );
 	void mostrarLista();
 	void removeNodo(Nodo *aux);
+	listaDobleCircular * clone();
 };
 

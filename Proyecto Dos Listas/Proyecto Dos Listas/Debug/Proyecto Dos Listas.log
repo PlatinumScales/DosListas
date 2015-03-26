@@ -1,21 +1,17 @@
-﻿Build started 20/03/2015 11:57:54.
-     1>Project "D:\BISOFT-10\Proyecto Dos Listas\Proyecto Dos Listas\Proyecto Dos Listas.vcxproj" on node 2 (Build target(s)).
+﻿Build started 3/26/2015 5:22:43 PM.
+     1>Project "C:\Users\Alejandro\Documents\Proyecto Estructuras de Datos\DosListas\Proyecto Dos Listas\Proyecto Dos Listas\Proyecto Dos Listas.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Proyecto Dos Listas.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Nodo.cpp listaDobleCircular.cpp
-         listaDobleCircular.cpp
-         Nodo.cpp
-         Generating Code...
-     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\nodo.cpp(17): error C4716: 'Nodo::getDato' : must return a value
-     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\nodo.cpp(20): error C4716: 'Nodo::getSgte' : must return a value
-     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\nodo.cpp(23): error C4716: 'Nodo::getAnte' : must return a value
-     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(14): error C4716: 'listaDobleCircular::dirNodo' : must return a value
-     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(19): error C4716: 'listaDobleCircular::getSize' : must return a value
-     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(21): error C4716: 'listaDobleCircular::vacia' : must return a value
-     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(27): error C4716: 'listaDobleCircular::agregar' : must return a value
-     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(28): error C4716: 'listaDobleCircular::eliminar' : must return a value
-     1>d:\bisoft-10\proyecto dos listas\proyecto dos listas\listadoblecircular.cpp(16): error C4716: 'listaDobleCircular::getCab' : must return a value
-     1>Done Building Project "D:\BISOFT-10\Proyecto Dos Listas\Proyecto Dos Listas\Proyecto Dos Listas.vcxproj" (Build target(s)) -- FAILED.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Proyecto Dos Listas.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DosListas.cpp
+         DosListas.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alejandro\Documents\Proyecto Estructuras de Datos\DosListas\Proyecto Dos Listas\Debug\Proyecto Dos Listas.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Alejandro\Documents\Proyecto Estructuras de Datos\DosListas\Proyecto Dos Listas\Debug\Proyecto Dos Listas.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alejandro\Documents\Proyecto Estructuras de Datos\DosListas\Proyecto Dos Listas\Debug\Proyecto Dos Listas.lib" /MACHINE:X86 Debug\DosListas.obj
+         Debug\listaDobleCircular.obj
+         Debug\Nodo.obj
+         "Debug\Proyecto Dos Listas.obj"
+         Debug\stdafx.obj
+         Proyecto Dos Listas.vcxproj -> C:\Users\Alejandro\Documents\Proyecto Estructuras de Datos\DosListas\Proyecto Dos Listas\Debug\Proyecto Dos Listas.exe
+     1>Done Building Project "C:\Users\Alejandro\Documents\Proyecto Estructuras de Datos\DosListas\Proyecto Dos Listas\Proyecto Dos Listas\Proyecto Dos Listas.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.20
+Time Elapsed 00:00:00.56

@@ -20,5 +20,6 @@ public:
 
 	Nodo *getAnte();
 	void setAnte(Nodo *);
+	Nodo * clone();
 };
 
